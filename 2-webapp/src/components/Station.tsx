@@ -17,7 +17,7 @@ interface StationInterface {
 
 export const Station = (props: StationInterface) => {
   return (
-    <div id={props.station_id} className={"station"}>
+    <div id={props.station_id} className={"station"} key={props.station_id}>
       <div className={"station-name-address"}>
         <h2>{props.name}</h2>
         <p>
