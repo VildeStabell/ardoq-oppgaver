@@ -1,0 +1,24 @@
+.station {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 5px;
+    background-color: cadetblue;
+    min-width: 200px;
+}
+
+.availability {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.unavailable {
+    color: darkred;
+}
+
+.available {
+    color: darkgreen;
+}

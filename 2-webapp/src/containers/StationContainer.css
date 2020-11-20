@@ -1,0 +1,6 @@
+#station-container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 110px;
+}
